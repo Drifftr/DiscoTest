@@ -2,5 +2,5 @@
   buildImage = false
 
 [[container.copy.files]]
-sourceFile="./resources.json"
+sourceFile="./resources2.json"
 target="/home/ballerina/resources.json"
