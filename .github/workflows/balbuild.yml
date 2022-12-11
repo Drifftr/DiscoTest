@@ -23,4 +23,5 @@ jobs:
         env: {CI_BUILD : true}
         with: 
           args: "build --export-openapi --generate-config-schema --observability-included --cloud=k8s"
+        working-directory: "./"
 
